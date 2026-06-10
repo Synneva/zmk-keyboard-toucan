@@ -41,7 +41,6 @@
             key-positions = <3 4>;
         };
 
-
         df_par {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <13 12>;
@@ -50,7 +49,7 @@
         fg_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <13 14>;
-        };        
+        };
 
         klenter {
             bindings = <&kp ENTER>;
@@ -67,7 +66,6 @@
             key-positions = <15 16>;
         };
 
-
         yu_apo {
             bindings = <&kp APOS>;
             key-positions = <6 5>;
@@ -77,7 +75,6 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <6 7>;
         };
-
 
         we_esc {
             bindings = <&kp ESCAPE>;
@@ -99,9 +96,6 @@
             key-positions = <24 4>;
         };
 
-
-
-
         as_caps {
             bindings = <&caps_word>;
             key-positions = <11 10>;
@@ -112,8 +106,6 @@
             bindings = <&kp LC(Z)>;
             key-positions = <20 21>;
         };
-
-
 
         ohm {
             bindings = <&ohm>;
@@ -130,8 +122,6 @@
             key-positions = <26 6>;
         };
 
-
-
         GMR {
             bindings = <&tog 5>;
             key-positions = <4 14 26>;
@@ -145,6 +135,11 @@
         mid_click {
             bindings = <&mkp MCLK>;
             key-positions = <11 12 13>;
+        };
+
+        base_layer {
+            bindings = <&to 0>;
+            key-positions = <10 11 13 12>;
         };
     };
 
@@ -201,7 +196,7 @@
         FUN {
             display-name = "FUN";
             bindings = <
-&bootloader  &kp SPACE  &kp SPACE  &kp SPACE  &kp C_VOL_UP  &kp C_BRI_UP  &kp F7  &kp F8  &kp F9  &kp F10  &kp SPACE  &kp SPACE  &kp F5  &kp SPACE  &kp C_VOL_DN  &kp C_BRI_DN  &kp F4  &kp F5  &kp F6  &kp F11  &studio_unlock  &kp SPACE  &trans  &trans  &trans  &bootloader  &kp F1  &kp F2  &kp F3  &kp F12  &trans  &trans  &sys_reset  &sys_reset  &trans  &trans
+&bootloader  &kp SPACE  &kp SPACE  &kp SPACE  &kp C_VOL_UP  &kp C_BRI_UP  &kp F7  &kp F8  &kp F9  &kp F10  &kp SPACE  &kp SPACE  &kp F5  &kp SPACE  &kp C_VOL_DN  &kp C_BRI_DN  &kp F4  &kp F5  &kp F6  &kp F11  &studio_unlock  &kp SPACE  &to 1  &to 2  &to 5  &bootloader  &kp F1  &kp F2  &kp F3  &kp F12  &trans  &trans  &sys_reset  &sys_reset  &trans  &trans
             >;
         };
 

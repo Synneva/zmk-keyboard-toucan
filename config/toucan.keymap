@@ -21,9 +21,9 @@
         base {
             display-name = "BASE";
             bindings = <
+&kp Q &kp W &kp E &none &none &none &none &none &none &kp P &none &none
 &none &none &none &none &none &none &none &none &none &none &none &none
-&none &none &none &none &none &none &none &none &none &none &none &none
-&none &none &none &none &none &none &none &none &none &none &none &none
+&none &none &none &none &none &none &none &none &none &kp BSPC &kp SPACE &kp RGUI
             >;
         };
         extra_1 { status = "reserved"; };

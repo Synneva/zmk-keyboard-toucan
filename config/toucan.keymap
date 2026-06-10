@@ -20,12 +20,21 @@
 
         base {
             display-name = "BASE";
+//            bindings = <
+// &kp Q &kp W &kp E &none &none &none &none &none &none &kp P &none &none
+// &none &none &none &none &none &none &none &none &none &none &none &none
+// &none &none &none &none &none &none &none &none &none &kp BSPC &kp SPACE &kp RGUI
+//            >;
+
             bindings = <
-&kp Q &kp W &kp E &none &none &none &none &none &none &kp P &none &none
-&none &none &none &none &none &none &none &none &none &none &none &none
-&none &none &none &none &none &none &none &none &none &kp BSPC &kp SPACE &kp RGUI
+    &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  
+    &mt LEFT_SHIFT A  &kp S  &kp D  &lt 3 F  &kp G  &kp H  &lt 3 J  &kp K  &kp L  &mt LEFT_SHIFT SEMI  
+    &mt LCTRL Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &mt RCTRL FSLH  
+    &lt 1 BACKSPACE  &mt LEFT_ALT SPACE  &lt 2 ENTER  &lt 2 BACKSPACE  &kp SPACE  &lt 1 RIGHT_GUI
+            
             >;
         };
+
         extra_1 { status = "reserved"; };
 
         extra_2 { status = "reserved"; };

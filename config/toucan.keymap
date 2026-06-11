@@ -1,13 +1,13 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &mt {
-        flavor = "balanced";
-        retro-tap;
-        require-prior-idle-ms = <100>;
-        quick-tap-ms = <150>;
-    };
-
+    flavor = "balanced";
+    retro-tap;
+    require-prior-idle-ms = <100>;
+    quick-tap-ms = <150>;
+};
 
 / {
     // conditional_layers {
@@ -107,26 +107,6 @@
             key-positions = <20 21>;
         };
 
-        ohm {
-            bindings = <&ohm>;
-            key-positions = <15 8>;
-        };
-
-        pi {
-            bindings = <&pi>;
-            key-positions = <9 7>;
-        };
-
-        mu {
-            bindings = <&mu>;
-            key-positions = <26 6>;
-        };
-
-        GMR {
-            bindings = <&tog 5>;
-            key-positions = <4 14 26>;
-        };
-
         right_click {
             bindings = <&mkp MB2>;
             key-positions = <11 12>;
@@ -142,7 +122,6 @@
             key-positions = <10 11 13 12>;
         };
     };
-    
 
     keymap {
         compatible = "zmk,keymap";

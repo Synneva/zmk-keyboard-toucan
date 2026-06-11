@@ -10,6 +10,13 @@
     //     };
     // };
 
+    &mt {
+        flavor = "balanced";
+        retro-tap;
+        require-prior-idle-ms = <100>;
+        quick-tap-ms = <150>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

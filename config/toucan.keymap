@@ -18,6 +18,130 @@
     //     };
     // };
 
+    combos {
+        compatible = "zmk,combos";
+
+        qw_tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
+
+        op_del {
+            bindings = <&kp DEL>;
+            key-positions = <8 9>;
+        };
+
+        er_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <3 2>;
+        };
+
+        rt_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <3 4>;
+        };
+
+        df_par {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <13 12>;
+        };
+
+        fg_par {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <13 14>;
+        };
+
+        klenter {
+            bindings = <&kp ENTER>;
+            key-positions = <18 17>;
+        };
+
+        jk- {
+            bindings = <&kp MINUS>;
+            key-positions = <16 17>;
+        };
+
+        hj_tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <15 16>;
+        };
+
+        yu_apo {
+            bindings = <&kp APOS>;
+            key-positions = <6 5>;
+        };
+
+        ui_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <6 7>;
+        };
+
+        we_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2 3>;
+        };
+
+        qwe_grav {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 1 2>;
+        };
+
+        psembspipe {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <9 19>;
+        };
+
+        BT {
+            bindings = <&mo 4>;
+            key-positions = <24 4>;
+        };
+
+        as_caps {
+            bindings = <&caps_word>;
+            key-positions = <11 10>;
+            layers = <0>;
+        };
+
+        zx_undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <20 21>;
+        };
+
+        ohm {
+            bindings = <&ohm>;
+            key-positions = <15 8>;
+        };
+
+        pi {
+            bindings = <&pi>;
+            key-positions = <9 7>;
+        };
+
+        mu {
+            bindings = <&mu>;
+            key-positions = <26 6>;
+        };
+
+        GMR {
+            bindings = <&tog 5>;
+            key-positions = <4 14 26>;
+        };
+
+        right_click {
+            bindings = <&mkp MB2>;
+            key-positions = <11 12>;
+        };
+
+        mid_click {
+            bindings = <&mkp MCLK>;
+            key-positions = <11 12 13>;
+        };
+
+        base_layer {
+            bindings = <&to 0>;
+            key-positions = <10 11 13 12>;
+        };
+    };
     
 
     keymap {

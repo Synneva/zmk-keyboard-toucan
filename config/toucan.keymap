@@ -1,6 +1,14 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+&mt {
+        flavor = "balanced";
+        retro-tap;
+        require-prior-idle-ms = <100>;
+        quick-tap-ms = <150>;
+    };
+
+
 / {
     // conditional_layers {
     //     compatible = "zmk,conditional-layers";
@@ -10,12 +18,7 @@
     //     };
     // };
 
-    &mt {
-        flavor = "balanced";
-        retro-tap;
-        require-prior-idle-ms = <100>;
-        quick-tap-ms = <150>;
-    };
+    
 
     keymap {
         compatible = "zmk,keymap";

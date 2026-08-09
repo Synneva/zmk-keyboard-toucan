@@ -62,6 +62,7 @@
         er_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <3 2>;
+            layers = <0 1>;
         };
 
         rt_bracket {
@@ -72,11 +73,13 @@
         df_par {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <13 12>;
+            layers = <0 1>;
         };
 
         fg_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <13 14>;
+            layers = <0 1>;
         };
 
         klenter {
@@ -158,6 +161,7 @@
         right_click {
             bindings = <&mkp MB2>;
             key-positions = <11 12>;
+            layers = <2 0>;
         };
 
         mid_click {

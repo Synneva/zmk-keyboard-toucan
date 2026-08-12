@@ -90,21 +90,25 @@
         jk- {
             bindings = <&kp MINUS>;
             key-positions = <16 17>;
+            layers = <0 1>;
         };
 
         hj_tilde {
             bindings = <&kp TILDE>;
             key-positions = <15 16>;
+            layers = <0 1>;
         };
 
         yu_apo {
             bindings = <&kp APOS>;
             key-positions = <6 5>;
+            layers = <0 1>;
         };
 
         ui_quote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <6 7>;
+            layers = <0 1>;
         };
 
         we_esc {
@@ -172,6 +176,51 @@
         base_layer {
             bindings = <&to 0>;
             key-positions = <10 11 13 12>;
+        };
+
+        click {
+            bindings = <&mkp MB1>;
+            key-positions = <15 16>;
+            layers = <2>;
+        };
+
+        rclick {
+            bindings = <&mkp RCLK>;
+            key-positions = <16 17>;
+            layers = <2>;
+        };
+
+        back {
+            bindings = <&mkp MB4>;
+            key-positions = <6 5>;
+            layers = <2>;
+        };
+
+        fwd {
+            bindings = <&mkp MB5>;
+            key-positions = <6 7>;
+            layers = <2>;
+        };
+
+        midclick {
+            bindings = <&mkp MCLK>;
+            key-positions = <16 15 17>;
+            layers = <2>;
+        };
+
+        clk {
+            bindings = <&mkp MB1>;
+            key-positions = <15 5>;
+        };
+
+        rclk {
+            bindings = <&mkp MB2>;
+            key-positions = <6 16>;
+        };
+
+        mclk {
+            bindings = <&mkp MCLK>;
+            key-positions = <17 7>;
         };
     };
 

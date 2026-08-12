@@ -68,6 +68,7 @@
         rt_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <3 4>;
+            layers = <0 1 2>;
         };
 
         df_par {
@@ -85,6 +86,7 @@
         klenter {
             bindings = <&kp ENTER>;
             key-positions = <18 17>;
+            layers = <0 1 2>;
         };
 
         jk- {
@@ -162,12 +164,6 @@
             key-positions = <4 14 26>;
         };
 
-        right_click {
-            bindings = <&mkp MB2>;
-            key-positions = <11 12>;
-            layers = <2 0>;
-        };
-
         mid_click {
             bindings = <&mkp MCLK>;
             key-positions = <11 12 13>;
@@ -221,6 +217,24 @@
         mclk {
             bindings = <&mkp MCLK>;
             key-positions = <17 7>;
+        };
+
+        l_clk {
+            bindings = <&mkp LCLK>;
+            key-positions = <13 3>;
+            layers = <0 2 1>;
+        };
+
+        l_rclk {
+            bindings = <&mkp RCLK>;
+            key-positions = <12 2>;
+            layers = <0 2 1>;
+        };
+
+        mclk {
+            bindings = <&mkp MCLK>;
+            key-positions = <11 1>;
+            layers = <0 2 1>;
         };
     };
 
